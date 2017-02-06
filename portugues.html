@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title> Marcel Lourenço | portfolio </title>
+    <title>Resume - Marcel Lourenço</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta content="Bodo - Simple One Page Personal" name="description">
-    <meta content="BdgPixel" name="author">
+    <meta content="Web Developer | Digital Journalist" name="description">
+    <meta content="Marcel.Lou" name="author">
     <!--Fav-->
     <link href="../images/ico.ico" rel="shortcut icon">
 
@@ -891,9 +891,12 @@ Escrita Criativa | Apresentações                    </div>
 
               </div>
               <div class="col-md-9 content-right">
-                <form>
-                  <div class="group">
-                    <input required="" type="text"><span class="highlight"></span><span class="bar"></span><label>Nome</label>
+
+
+                <form role="form" action="contact.php" method="POST" >
+                    <div class="group">
+                    <input type="name" class="form-control" id="name" name="name" placeholder="example@example.com"/><span class="highlight"></span><span class="bar"></span>
+
                   </div>
                   <div class="group">
                     <input required="" type="email"><span class="highlight"></span><span class="bar"></span><label>Email</label>
@@ -901,7 +904,8 @@ Escrita Criativa | Apresentações                    </div>
                   <div class="group">
                     <textarea required=""></textarea><span class="highlight"></span><span class="bar"></span><label>Mensagem</label>
                   </div>
-                  <input id="sendMessage" name="sendMessage" type="submit" value="Enviar">
+                  <button type="submit" class="btn btn-default">Submit</button>
+
                 </form>
               </div>
             </div>
