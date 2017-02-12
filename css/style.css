@@ -513,7 +513,7 @@ p {
 
 /*----------------------------------------- 6) Hero ----http://netdna.webdesignerdepot.com/uploads/2013/07/2222.gif----------------------------------------------*/
 #home {
-  background: url('../images/bg.jpg'); /*ANIMA*/
+    background: url('../images/bg.jpg'); /*ANIMA*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -782,7 +782,7 @@ ul.portfolio-image li .desc{
 }
 /*---------- d. testimonial -----------*/
 #testimonial {
-  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/12/96/14/1296140089e6c12f57db0c31923cb622.jpg);
+  background-image: url(https://68.media.tumblr.com/d8696d03d6b950a123bc5a5cff75c8b1/tumblr_oi1t273G6t1vtx894o1_1280.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -800,7 +800,7 @@ ul.portfolio-image li .desc{
 }
 .list-testimonial .content-testimonial {
   text-align: center;
-  color: #ffffff;
+  color: white;
 }
 .list-testimonial .content-testimonial .testi {
   font-size: 16px;
@@ -811,7 +811,7 @@ ul.portfolio-image li .desc{
   font-size: 14px;
   margin-top: 30px;
   letter-spacing: 2px;
-  color: #B7B7B7;
+  color: white;
   font-weight: 700;
 }
 .mask-testimonial{
